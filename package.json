@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss_tutorial",
+  "version": "1.0.0",
+  "description": "Tailwind_css_tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "Felix",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
